@@ -1,0 +1,50 @@
+/*------------
+     GENERAL
+--------------*/
+body{
+  font-family: "Edu TAS Beginner", serif;
+  background-image: url(/img/cork.png);
+}
+
+/*------------
+   HEADER
+--------------*/
+header {
+    background-image: url(/img/wall.png);
+    padding: 15px 0 ;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.ms-card{
+    padding: 16px;
+    background-color: white;
+    position: relative;
+}
+
+.ms-card > img{
+    position: absolute;
+    top: 0;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+
+
+}
+
+.ms-card-text{
+    background-color: white;
+    padding: 8px 0;
+}
+
+
+/*------------
+   MAIN
+--------------*/
+
+.ms-card-img > img{
+    width:100%;
+}
+
