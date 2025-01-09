@@ -1,6 +1,13 @@
 /*------------
      GENERAL
 --------------*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
 body{
   font-family: "Edu TAS Beginner", serif;
   background-image: url(/img/cork.png);
@@ -23,6 +30,11 @@ h1{
     padding: 16px;
     background-color: white;
     position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.ms-card:hover{
+    transform: rotate(15deg);
 }
 
 .ms-card > img{
@@ -37,6 +49,7 @@ h1{
 .ms-card-text{
     background-color: white;
     padding: 8px 0;
+    height: 75px;
 }
 
 
@@ -47,4 +60,5 @@ h1{
 .ms-card-img > img{
     width:100%;
 }
+
 
