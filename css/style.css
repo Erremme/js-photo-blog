@@ -12,6 +12,9 @@ body{
   background-image: url(/img/cork.png);
 }
 
+/*------------
+     OVERLAY
+--------------*/
 .ms-overlay {
     position: fixed;
     top: 0;
@@ -25,7 +28,6 @@ body{
     align-items: center;
     z-index: 10;
 }
-
 
 #btn-close{
     margin: 10px;
@@ -43,7 +45,6 @@ body{
     max-width: 500px;
 }
 
-
 /*------------
    HEADER
 --------------*/
@@ -57,12 +58,9 @@ h1{
     font-size: 60px;
 }
 
-
-
 /*------------
    MAIN
 --------------*/
-
 .ms-card{
     padding: 16px;
     background-color: white;
@@ -73,8 +71,7 @@ h1{
 
 .ms-card:hover{
     transform: rotate(10deg) scale(1.2);
-    cursor: pointer;
-   
+    cursor: pointer; 
 }
 
 .ms-card:hover.ms-card > img{
